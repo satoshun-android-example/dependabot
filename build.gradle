@@ -6,12 +6,8 @@ buildscript {
   versions.kotlin = '1.3.41'
   versions.coroutines = '1.3.0'
 
-  ext.versions = versions
-
-  ext {
-    kotlinStdlib = "org.jetbrains.kotlin:kotlin-stdlib:${versions.kotlin}"
-    coroutine = "org.jetbrains.kotlinx:kotlinx-coroutines-core:${versions.kotlin}"
-  }
+  ext.kotlinStdlib = "org.jetbrains.kotlin:kotlin-stdlib:${versions.kotlin}"
+  ext.coroutine = "org.jetbrains.kotlinx:kotlinx-coroutines-core:${versions.kotlin}"
 
   repositories {
     google()
