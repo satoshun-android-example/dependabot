@@ -5,11 +5,15 @@ buildscript {
   def versions = [:]
   versions.kotlin = '1.3.41'
   versions.coroutines = '1.3.0'
+  versions.retrofit = '2.7.0'
 
   ext {
     kotlinStdlib = "org.jetbrains.kotlin:kotlin-stdlib:${versions.kotlin}"
     coroutine = "org.jetbrains.kotlinx:kotlinx-coroutines-core:${versions.coroutines}"
     coroutine2 = "org.jetbrains.kotlinx:kotlinx-coroutines-android:${versions.coroutines}"
+
+    retrofit = "com.squareup.retrofit2:retrofit:${versions.retrofit}"
+    retrofit2 = "com.squareup.retrofit2:converter-moshi:${versions.retrofit}"
   }
 
   repositories {
