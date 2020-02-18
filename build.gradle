@@ -3,7 +3,7 @@ import static dependencies.DependenciesKt.*
 
 buildscript {
   def versions = [:]
-  versions.kotlin = '1.3.41'
+  versions.kotlin = '1.3.61'
 
   ext.versions = versions
 
