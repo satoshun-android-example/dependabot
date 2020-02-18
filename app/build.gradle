@@ -36,6 +36,7 @@ android {
 
 dependencies {
   implementation kotlinStdlib
+  implementation coroutine
 
   implementation MATERIAL
   implementation APPCOMPAT
